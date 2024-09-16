@@ -30,8 +30,6 @@ async function fetchImages() {
 
     const data = response.data;
     totalImages += data.hits.length;
-    console.log(totalImages);
-    console.log(data.totalHits);
     if (data.hits.length === 0 && page === 1) {
       iziToast.error({
         message:
