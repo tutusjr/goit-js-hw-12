@@ -12,7 +12,7 @@ const loadingMessage = document.querySelector('.loading-message');
 const loadMoreBtn = document.querySelector('.load-more-btn');
 
 let page = 1;
-const perPage = 20;
+const perPage = 40;
 let lightbox;
 let totalImages = 0;
 
